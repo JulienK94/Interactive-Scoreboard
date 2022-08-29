@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #4C1D95;
+}
+
+h3 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container div {
+    text-align: center;
+}
+
+#home-score {
+    background: #000;
+    width: 5em;
+    height: 5em;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 3em;
+    color: #F94F6D;
+    padding-top: 10px;
+    font-family: Cursed Timer ULiL;
+}
+
+#guest-score {
+    background: #000;
+    width: 5em;
+    height: 5em;
+    border-radius: 5px;
+    color: #F94F6D;
+
+}
+
+.btn-container {
+     display: flex;
+    justify-content: space-around;
+}
+
+.btn-container button {
+    width: 1.5em;
+    height: 1.5em;
+    background: #4C1D95;
+    color: #9AABD8;
+    border: 2px #9AABD8 solid;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding: 1px;
+}
